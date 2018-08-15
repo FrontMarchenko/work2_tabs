@@ -1,0 +1,25 @@
+---
+title: Index page
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+
+<div class="main">
+		<nav class="main__tabs">
+				<a class="tab first is-active" href="#block1">link1</a>
+				<a class="tab" href="#block2">link2</a>
+				<a class="tab" href="#block3">link3</a>
+				<a class="tab" href="#block4">link4</a>
+		</nav>
+
+		<div class="main__content">
+				<div id="block1" class="block">block-1</div>
+				<div id="block2" class="block is-hidden">block-2</div>
+				<div id="block3" class="block is-hidden">block-3</div>
+				<div id="block4" class="block is-hidden">block-4</div>
+		</div>
+</div>
+
+{% endblock %}
