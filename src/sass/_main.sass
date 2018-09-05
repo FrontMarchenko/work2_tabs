@@ -6,6 +6,7 @@ body
 	margin: 100px auto
 	&__tabs
 		background: #33FF66
+		cursor: pointer
 		a
 			padding: 10px 15px
 			border: 1px solid #000
@@ -14,9 +15,11 @@ body
 		background: tomato
 
 
-.block.is-hidden 
+.block
 	display: none
-
-
+.block.is-active
+	display: block
+.block.is-visible
+	display: block
 .tab.is-active 
 	color: #f00
